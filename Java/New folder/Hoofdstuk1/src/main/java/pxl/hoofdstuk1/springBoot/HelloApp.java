@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class HelloApp {
 	
 	public static void main(String[] args) {
-		ConfigurableApplicationContext ctx = new SpringApplication.run(AppConfig.class, args);
+		//ConfigurableApplicationContext ctx = new SpringApplication.run(AppConfig.class, args);
 	}
 
 }
