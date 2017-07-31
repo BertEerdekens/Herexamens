@@ -7,6 +7,7 @@ import javax.persistence.PersistenceUnit;
 
 import org.springframework.stereotype.Repository;
 
+/*
 @Repository("beerRepository")
 public class BeerRepositoryImpl implements BeerRepository{
 
@@ -27,3 +28,4 @@ public class BeerRepositoryImpl implements BeerRepository{
 		return beer;
 	}
 }
+*/

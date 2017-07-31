@@ -9,11 +9,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
 @Entity
 @Table(name = "Beers")
+@NamedQuery(name="Beer.getBeerByAlcohol", query="select b from Beer b where b.alcohol=?1")
 public class Beer implements Serializable {
 
 	@Id

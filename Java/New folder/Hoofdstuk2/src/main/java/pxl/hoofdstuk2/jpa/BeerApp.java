@@ -14,8 +14,8 @@ public class BeerApp {
 		BeerRepository br = ctx.getBean("beerRepository", BeerRepository.class);
 		
 		
-		Beer beer = br.getBeerById(20);
-		System.out.println(beer);
+		//Beer beer = br.getBeerById(20);
+		//System.out.println(beer);
 	}
 
 }
