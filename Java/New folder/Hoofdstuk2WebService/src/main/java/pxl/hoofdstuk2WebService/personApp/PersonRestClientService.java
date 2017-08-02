@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-
+/*
 @Component("PersonService")
 public class PersonRestClientService {
 	private String baseURL;
@@ -24,4 +24,4 @@ public class PersonRestClientService {
 	public Person getPersonById(int id) {
 		return template.getForObject(baseURL + "persons/{0}", Person.class, id);
 	}
-}
+}*/
