@@ -1,0 +1,2 @@
+android.app.Application
+Fitsense_VS2017.Android
